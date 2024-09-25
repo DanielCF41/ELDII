@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Apr 30 10:26:11 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+Revision Name : gray_counter4
+Top-level Entity Name : gray_counter4
+Family : Cyclone IV E
+Total logic elements : 4
+    Total combinational functions : 4
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

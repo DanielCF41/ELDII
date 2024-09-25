@@ -1,0 +1,28 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity contador_bcd is
+    Port ( clk : in  STD_LOGIC;
+           reset : in  STD_LOGIC;
+           enable : in STD_LOGIC;
+           bcd_out : out  STD_LOGIC_VECTOR (15 downto 0)); -- 16 bits para 4 dígitos BCD
+end contador_bcd;
+
+architecture Behavioral of contador_bcd is
+    signal count : STD_LOGIC_VECTOR (15 downto 0);
+begin
+    process(clk, reset)
+    begin
+        if reset = '1' then
+            count <= (others => '0'); -- reinicia o contador quando o sinal de reset estiver ativo
+        elsif rising_edge(clk) then
+            if enable = '1' then
+                count <= count + 1; -- incrementa o contador em cada borda de subida do clock
+            end if;
+        end if;
+    end process;
+
+    bcd_out <= std_logic_vector(to_unsigned(count, 16)); -- converte o contador para sinal de saída BCD
+end Behavioral;

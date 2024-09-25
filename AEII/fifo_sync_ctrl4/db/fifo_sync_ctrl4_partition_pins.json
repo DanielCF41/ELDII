@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "full",
+					"strict" : false
+				},
+				{
+					"name" : "empty",
+					"strict" : false
+				},
+				{
+					"name" : "w_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "w_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "w_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "w_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "r_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "r_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "r_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "r_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "wr",
+					"strict" : false
+				},
+				{
+					"name" : "rd",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

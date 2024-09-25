@@ -1,0 +1,16 @@
+|contador_up_down
+clk => \L1:cnt[0].CLK
+clk => \L1:cnt[1].CLK
+clk => \L1:cnt[2].CLK
+clk => \L1:cnt[3].CLK
+clk => \L1:cnt[4].CLK
+clk => \L1:cnt[5].CLK
+rst => \L1:cnt[0].ACLR
+rst => \L1:cnt[1].ACLR
+rst => \L1:cnt[2].ACLR
+rst => \L1:cnt[3].ACLR
+rst => \L1:cnt[4].ACLR
+rst => \L1:cnt[5].ACLR
+clk_out <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,11 @@
+Fitter Status : Successful - Tue Mar  5 10:06:58 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+Revision Name : Ckt74161
+Top-level Entity Name : Ckt74161
+Family : MAX II
+Device : EPM240F100C4
+Timing Models : Final
+Total logic elements : 6 / 240 ( 3 % )
+Total pins : 14 / 80 ( 18 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

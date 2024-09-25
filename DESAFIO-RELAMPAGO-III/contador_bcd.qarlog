@@ -1,0 +1,15 @@
+Quartus Prime Archive log --	/home/daniel.f2005/QUARTUS/ELD-II/DESAFIO-RELAMPAGO-III/contador_bcd.qarlog
+
+Archive:	/home/daniel.f2005/QUARTUS/ELD-II/DESAFIO-RELAMPAGO-III/contador_bcd.qar
+Date:		Thu Apr 18 15:37:48 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/daniel.f2005/QUARTUS/ELD-II/DESAFIO-RELAMPAGO-III/contador_bcd.qpf
+/home/daniel.f2005/QUARTUS/ELD-II/DESAFIO-RELAMPAGO-III/contador_bcd.qsf
+/home/daniel.f2005/QUARTUS/ELD-II/DESAFIO-RELAMPAGO-III/contador_bcd.vhd
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 4 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

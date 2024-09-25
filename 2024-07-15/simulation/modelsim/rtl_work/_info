@@ -1,0 +1,121 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/daniel.f2005/QUARTUS/ELD-II/2024-07-15/simulation/modelsim
+Efifo_sync_ctrl4
+Z1 w1722617780
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8/home/daniel.f2005/QUARTUS/ELD-II/2024-07-15/fifo_sync_ctrl4.vhd
+Z6 F/home/daniel.f2005/QUARTUS/ELD-II/2024-07-15/fifo_sync_ctrl4.vhd
+l0
+L8 1
+Vk4YSWX4@Yo2_H:f:P2l:P0
+!s100 PdLEM[DOWAa8F>3UfJ=Da1
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1722618733
+!i10b 1
+Z9 !s108 1722618733.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/daniel.f2005/QUARTUS/ELD-II/2024-07-15/fifo_sync_ctrl4.vhd|
+!s107 /home/daniel.f2005/QUARTUS/ELD-II/2024-07-15/fifo_sync_ctrl4.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Alookahead_lfsr_arch
+R2
+R3
+R4
+Z13 DEx4 work 15 fifo_sync_ctrl4 0 22 k4YSWX4@Yo2_H:f:P2l:P0
+!i122 0
+l148
+L139 75
+V766g1c7Ti3FXD8h60M8ii3
+!s100 2N67AT;Im5<j=HfATi]MS0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+Z14 !s107 /home/daniel.f2005/QUARTUS/ELD-II/2024-07-15/fifo_sync_ctrl4.vhd|
+!i113 1
+R11
+R12
+Alookahead_bin_arch
+R2
+R3
+R4
+R13
+!i122 0
+l72
+L63 75
+VoezjG7a:Ve^TLJ2;S]Wd92
+!s100 :<jNSU^4YlM7lhc^g?AYM0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R14
+!i113 1
+R11
+R12
+Aenlarged_bin_arch
+R2
+R3
+R4
+R13
+!i122 0
+l23
+L18 41
+V]J7SmCKT0nAEN=aV6mSdC2
+!s100 :^EomQlDcX`7Ac?Km]lXe3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R14
+!i113 1
+R11
+R12
+Cfifo_sync_ctrl4_cfg
+efifo_sync_ctrl4
+alookahead_bin_arch
+DAx4 work 15 fifo_sync_ctrl4 18 lookahead_bin_arch 22 oezjG7a:Ve^TLJ2;S]Wd92
+R2
+R3
+R4
+R13
+!i122 0
+R1
+R0
+R5
+R6
+l0
+L215 1
+V8a>`N4@;2gjZaI6^GBmk82
+!s100 ^JF;F1^BM[S1SHCO]>aFM3
+R7
+31
+R8
+!i10b 0
+R9
+R10
+R14
+!i113 1
+R11
+R12

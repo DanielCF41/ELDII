@@ -1,0 +1,9 @@
+|edge_detector1
+clk => state_reg~1.DATAIN
+reset => state_reg~3.DATAIN
+strobe => state_next.edge.DATAB
+strobe => state_next.one.DATAA
+strobe => state_reg.zero.DATAIN
+p1 <= p1.DB_MAX_OUTPUT_PORT_TYPE
+
+

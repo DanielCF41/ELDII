@@ -1,0 +1,12 @@
+|arbi_seq_counter4
+clk => r_reg[0].CLK
+clk => r_reg[1].CLK
+clk => r_reg[2].CLK
+reset => r_reg[0].ACLR
+reset => r_reg[1].ACLR
+reset => r_reg[2].ACLR
+q[0] << r_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] << r_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] << r_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

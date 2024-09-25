@@ -1,0 +1,80 @@
+# do shift_right_register_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /opt/intelFPGA/20.1/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/daniel.f2005/QUARTUS/ELD-II/shift_right_register.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:03:33 on Apr 12,2024
+# vcom -reportprogress 300 -93 -work work /home/daniel.f2005/QUARTUS/ELD-II/shift_right_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shift_right_register
+# -- Compiling architecture two_seg_arch of shift_right_register
+# End time: 11:03:34 on Apr 12,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# stdin: <EOF>
+vsim work.shift_right_register
+# vsim work.shift_right_register 
+# Start time: 11:03:35 on Apr 12,2024
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-26-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.shift_right_register(two_seg_arch)
+add wave -position end  sim:/shift_right_register/reset
+add wave -position end  sim:/shift_right_register/r_reg
+add wave -position end  sim:/shift_right_register/r_next
+add wave -position end  sim:/shift_right_register/q
+add wave -position end  sim:/shift_right_register/d
+add wave -position end  sim:/shift_right_register/clk
+force -freeze sim:/shift_right_register/reset 0 0
+force -freeze sim:/shift_right_register/reset 0 1, 0 120
+force -freeze sim:/shift_right_register/clk 1 0, 0 {50 ps} -r 100
+run 1000
+force -freeze sim:/shift_right_register/d 1 0
+run 1000
+run 20000
+force -freeze sim:/shift_right_register/reset 0 1, 0 20
+force -freeze sim:/shift_right_register/clk 1 0, 0 {50 ps} -r 100
+run 1000
+force -freeze sim:/shift_right_register/d 0 0
+force -freeze sim:/shift_right_register/d 0 0
+run 1000
+
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+force -freeze sim:/shift_right_register/d 01 0
+# ** UI-Msg: (vsim-4026) Value "01" does not represent a literal of the enumeration type.
+# ** UI-Msg: (vsim-4011) Invalid force value: 01 0.
+# 
+force -freeze sim:/shift_right_register/d 0 0
+force -freeze sim:/shift_right_register/r_reg 0010 0
+run 1000
+# End time: 11:20:45 on Apr 12,2024, Elapsed time: 0:17:10
+# Errors: 0, Warnings: 0

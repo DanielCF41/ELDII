@@ -1,0 +1,27 @@
+Quartus Prime Archive log --	/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1.qarlog
+
+Archive:	/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1.qar
+Date:		Tue Feb 27 11:17:57 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1.qpf
+/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1.qsf
+/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1.vhd
+/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/simulation/modelsim/tb_mux4x1_v1.do
+/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/simulation/modelsim/tb_mux4x1_v2.do
+/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/simulation/modelsim/tb_mux4x1_v3.do
+/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/simulation/modelsim/wave_v1.do
+/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/simulation/modelsim/wave_v2.do
+/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/simulation/modelsim/wave_v3.do
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Mar  1 09:47:13 2024
+Source archive file:	/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1.qar
+Archive was extracted into	/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1_restored/
+		 - successfully.

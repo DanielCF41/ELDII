@@ -1,0 +1,6 @@
+
+State Machine - |edge_detector1|state_reg
+Name state_reg.one state_reg.edge state_reg.zero 
+state_reg.zero 0 0 0 
+state_reg.edge 0 1 1 
+state_reg.one 1 0 1 

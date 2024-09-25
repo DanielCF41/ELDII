@@ -1,0 +1,8 @@
+|edge_detector2
+clk => state_reg.CLK
+reset => state_reg.ACLR
+strobe => state_reg.DATAIN
+strobe => p2.IN1
+p2 <= p2.DB_MAX_OUTPUT_PORT_TYPE
+
+

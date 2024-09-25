@@ -1,0 +1,106 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/simulation/modelsim
+Ccfg_infs
+emux4x1
+aifsc_v1
+DAx4 work 6 mux4x1 7 ifsc_v1 22 gMGXg@aUn@CK:EOBQ5Xze3
+Z1 DEx4 work 6 mux4x1 0 22 edSBCDH[502[j4Kj::@T63
+!i122 1
+Z2 w1709042080
+R0
+Z3 8/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1.vhd
+Z4 F/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1.vhd
+l0
+L40 1
+V7TBH3Skfc;K94ScdNOaVb3
+!s100 `d6dBb7Q4Tb70^6`HE6Kg2
+Z5 OV;C;2020.1;71
+31
+Z6 !s110 1709043369
+!i10b 0
+Z7 !s108 1709043369.000000
+Z8 !s90 -reportprogress|300|-93|-work|work|/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1.vhd|
+Z9 !s107 /home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1.vhd|
+!i113 1
+Z10 o-93 -work work
+Z11 tExplicit 1 CvgOpt 0
+Emux4x1
+R2
+!i122 1
+R0
+R3
+R4
+l0
+L1 1
+VedSBCDH[502[j4Kj::@T63
+!s100 P_[DjzRWEJ;527iBmT8VP3
+R5
+31
+R6
+!i10b 1
+R7
+R8
+R9
+!i113 1
+R10
+R11
+Aifsc_v3
+R1
+!i122 1
+l30
+Z12 L29 10
+Z13 V2MI>T2=AV8@@<BX^J=HFl3
+Z14 !s100 9h3TU_TV62D]oOd;EYcIb2
+R5
+31
+R6
+!i10b 1
+R7
+R8
+R9
+!i113 1
+R10
+R11
+Aifsc_v2
+R1
+!i122 1
+l20
+Z15 L19 9
+Z16 VE:c]g4hGO1KWW?[;;@K^T3
+Z17 !s100 i:2:7TcFBjaUUH=4RG=3D2
+R5
+31
+R6
+!i10b 1
+R7
+R8
+R9
+!i113 1
+R10
+R11
+Aifsc_v1
+R1
+!i122 1
+l12
+Z18 L11 7
+Z19 VgMGXg@aUn@CK:EOBQ5Xze3
+Z20 !s100 aTgG3imNkM0_h1?3jDWgI0
+R5
+31
+R6
+!i10b 1
+R7
+R8
+R9
+!i113 1
+R10
+R11

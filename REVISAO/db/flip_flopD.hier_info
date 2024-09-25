@@ -1,0 +1,10 @@
+|shift_reg
+clock => q[3].CLK
+reset => q[3].ACLR
+d_in => q[3].DATAIN
+q_out[0] <= <GND>
+q_out[1] <= <GND>
+q_out[2] <= <GND>
+q_out[3] <= q[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,121 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/daniel.f2005/QUARTUS/ELD-II/2024-03-22/contador/simulation/modelsim
+Ccfg_ifsc
+econtador_0_N
+aifsc_v3
+DAx4 work 12 contador_0_n 7 ifsc_v3 22 dV53XW[Q3O:i0@5fbHh4X1
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z4 DEx4 work 12 contador_0_n 0 22 XB5C]kO2U^DkGoabVGmI`0
+!i122 0
+Z5 w1719930291
+R0
+Z6 8/home/daniel.f2005/QUARTUS/ELD-II/2024-03-22/contador/contador_0_N.vhd
+Z7 F/home/daniel.f2005/QUARTUS/ELD-II/2024-03-22/contador/contador_0_N.vhd
+l0
+L67 1
+VS;UUWPofecbR@hhQM^A@M1
+!s100 DkjmU@c;P=oY5RDBem75]1
+Z8 OV;C;2020.1;71
+31
+Z9 !s110 1719930391
+!i10b 0
+Z10 !s108 1719930391.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|/home/daniel.f2005/QUARTUS/ELD-II/2024-03-22/contador/contador_0_N.vhd|
+!s107 /home/daniel.f2005/QUARTUS/ELD-II/2024-03-22/contador/contador_0_N.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Econtador_0_n
+R5
+R1
+R2
+R3
+!i122 0
+R0
+R6
+R7
+l0
+L5 1
+VXB5C]kO2U^DkGoabVGmI`0
+!s100 DaW2J]YCG:hePISAV4MS=3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+Z14 !s107 /home/daniel.f2005/QUARTUS/ELD-II/2024-03-22/contador/contador_0_N.vhd|
+!i113 1
+R12
+R13
+Aifsc_v3
+R1
+R2
+R3
+R4
+!i122 0
+l52
+L50 16
+VdV53XW[Q3O:i0@5fbHh4X1
+!s100 5PAjOoYX7hP?M_`[VD54c2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 1
+R12
+R13
+Aifsc_v2
+R1
+R2
+R3
+R4
+!i122 0
+l34
+L32 17
+VM010i3L48_@8bEfcH=?9:1
+!s100 aH4;M3;GzYS1I^Mi14_c23
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 1
+R12
+R13
+Aifsc_v1
+R1
+R2
+R3
+R4
+!i122 0
+l15
+L13 18
+VY^_CJ<:j@[c=5BnDbEl9z2
+!s100 j4n1oR_NmVG7k5Tci1@W=0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 1
+R12
+R13

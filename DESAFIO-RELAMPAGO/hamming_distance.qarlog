@@ -1,0 +1,18 @@
+Quartus Prime Archive log --	/home/daniel.f2005/QUARTUS/ELD-II/DESAFIO-RELAMPAGO/hamming_distance.qarlog
+
+Archive:	/home/daniel.f2005/QUARTUS/ELD-II/DESAFIO-RELAMPAGO/hamming_distance.qar
+Date:		Fri Mar 15 09:17:23 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/daniel.f2005/QUARTUS/ELD-II/DESAFIO-RELAMPAGO/SDC1.sdc
+/home/daniel.f2005/QUARTUS/ELD-II/DESAFIO-RELAMPAGO/SDC2.sdc
+/home/daniel.f2005/QUARTUS/ELD-II/DESAFIO-RELAMPAGO/hamming_distance.out.sdc
+/home/daniel.f2005/QUARTUS/ELD-II/DESAFIO-RELAMPAGO/hamming_distance.qpf
+/home/daniel.f2005/QUARTUS/ELD-II/DESAFIO-RELAMPAGO/hamming_distance.qsf
+/home/daniel.f2005/QUARTUS/ELD-II/DESAFIO-RELAMPAGO/hamming_distance.vhd
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

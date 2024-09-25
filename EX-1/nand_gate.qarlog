@@ -1,0 +1,18 @@
+Quartus Prime Archive log --	/home/daniel.f2005/QUARTUS/ELD-II/EX-1/nand_gate.qarlog
+
+Archive:	/home/daniel.f2005/QUARTUS/ELD-II/EX-1/nand_gate.qar
+Date:		Tue Feb 27 10:26:59 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/daniel.f2005/QUARTUS/ELD-II/EX-1/Ckt2.vhd
+/home/daniel.f2005/QUARTUS/ELD-II/EX-1/nand_gate.qpf
+/home/daniel.f2005/QUARTUS/ELD-II/EX-1/nand_gate.qsf
+/home/daniel.f2005/QUARTUS/ELD-II/EX-1/nand_gate.vhd
+/home/daniel.f2005/QUARTUS/ELD-II/EX-1/simulation/modelsim/tb_nand_gate.do
+/home/daniel.f2005/QUARTUS/ELD-II/EX-1/simulation/modelsim/wave.do
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

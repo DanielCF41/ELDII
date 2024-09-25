@@ -1,0 +1,52 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/daniel.f2005/QUARTUS/ELD-II/2024-08-06/simulation/modelsim
+Eedge_detector1
+Z1 w1722953929
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z4 8../../edge_detector1.vhd
+Z5 F../../edge_detector1.vhd
+l0
+L6 1
+V=Bj8XlWN[3cSS[];2l^951
+!s100 P3U8HTPF_fkaRUSBzdSE62
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1722953966
+!i10b 1
+Z8 !s108 1722953966.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|../../edge_detector1.vhd|
+Z10 !s107 ../../edge_detector1.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Amoore_arch
+R2
+R3
+Z13 DEx4 work 14 edge_detector1 0 22 =Bj8XlWN[3cSS[];2l^951
+!i122 2
+l17
+Z14 L14 45
+VSjGAZnKHWK@Xa:cJ?Ikg52
+!s100 7O7RC:S?nbbh;@ID<3:mb1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Mar 19 20:08:02 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+Revision Name : Ckt74161
+Top-level Entity Name : Ckt74161
+Family : Cyclone IV E
+Device : EP4CE6E22A7
+Timing Models : Final
+Total logic elements : 10 / 6,272 ( < 1 % )
+    Total combinational functions : 10 / 6,272 ( < 1 % )
+    Dedicated logic registers : 4 / 6,272 ( < 1 % )
+Total registers : 4
+Total pins : 14 / 92 ( 15 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

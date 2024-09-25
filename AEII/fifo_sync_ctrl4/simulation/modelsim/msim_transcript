@@ -1,0 +1,88 @@
+# do fifo_sync_ctrl4_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /opt/intelFPGA/20.1/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/daniel.f2005/QUARTUS/ELD-II/AEII/fifo_sync_ctrl4/fifo_sync_ctrl4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:18:36 on Aug 02,2024
+# vcom -reportprogress 300 -93 -work work /home/daniel.f2005/QUARTUS/ELD-II/AEII/fifo_sync_ctrl4/fifo_sync_ctrl4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo_sync_ctrl4
+# -- Compiling architecture enlarged_bin_arch of fifo_sync_ctrl4
+# -- Compiling architecture lookahead_bin_arch of fifo_sync_ctrl4
+# -- Loading entity fifo_sync_ctrl4
+# -- Compiling architecture lookahead_LFSR_arch of fifo_sync_ctrl4
+# -- Loading entity fifo_sync_ctrl4
+# ** Warning: /home/daniel.f2005/QUARTUS/ELD-II/AEII/fifo_sync_ctrl4/fifo_sync_ctrl4.vhd(154): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# ** Warning: /home/daniel.f2005/QUARTUS/ELD-II/AEII/fifo_sync_ctrl4/fifo_sync_ctrl4.vhd(155): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+# -- Compiling configuration fifo_sync_ctrl4_cfg
+# -- Loading entity fifo_sync_ctrl4
+# -- Loading architecture enlarged_bin_arch of fifo_sync_ctrl4
+# End time: 07:18:36 on Aug 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# 
+# 
+# stdin: <EOF>
+vsim work.fifo_sync_ctrl4(enlarged_bin_arch)
+# vsim work.fifo_sync_ctrl4(enlarged_bin_arch) 
+# Start time: 07:21:45 on Aug 02,2024
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-27-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fifo_sync_ctrl4(enlarged_bin_arch)
+add wave -position end  sim:/fifo_sync_ctrl4/clk
+add wave -position end  sim:/fifo_sync_ctrl4/reset
+add wave -position end  sim:/fifo_sync_ctrl4/wr
+add wave -position end  sim:/fifo_sync_ctrl4/rd
+add wave -position end  sim:/fifo_sync_ctrl4/w_addr
+add wave -position end  sim:/fifo_sync_ctrl4/r_addr
+add wave -position end  sim:/fifo_sync_ctrl4/w_ptr_reg
+add wave -position end  sim:/fifo_sync_ctrl4/w_ptr_next
+add wave -position end  sim:/fifo_sync_ctrl4/full
+add wave -position end  sim:/fifo_sync_ctrl4/empty
+force -freeze sim:/fifo_sync_ctrl4/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/fifo_sync_ctrl4/reset 1 0
+force -freeze sim:/fifo_sync_ctrl4/reset 1 0, 0 20
+force -freeze sim:/fifo_sync_ctrl4/w_ptr_reg 10#5 0
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fifo_sync_ctrl4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /fifo_sync_ctrl4
+force -freeze sim:/fifo_sync_ctrl4/wr 1 0
+force -freeze sim:/fifo_sync_ctrl4/rd 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 07:28:56 on Aug 02,2024, Elapsed time: 0:07:11
+# Errors: 0, Warnings: 2

@@ -1,0 +1,6 @@
+
+State Machine - |gcd|state_reg
+Name state_reg.done state_reg.calc state_reg.idle 
+state_reg.idle 0 0 0 
+state_reg.calc 0 1 1 
+state_reg.done 1 0 1 

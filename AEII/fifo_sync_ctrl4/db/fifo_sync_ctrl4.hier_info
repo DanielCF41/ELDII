@@ -1,0 +1,35 @@
+|fifo_sync_ctrl4
+clk => r_ptr_reg[0].CLK
+clk => r_ptr_reg[1].CLK
+clk => r_ptr_reg[2].CLK
+clk => r_ptr_reg[3].CLK
+clk => r_ptr_reg[4].CLK
+clk => w_ptr_reg[0].CLK
+clk => w_ptr_reg[1].CLK
+clk => w_ptr_reg[2].CLK
+clk => w_ptr_reg[3].CLK
+clk => w_ptr_reg[4].CLK
+reset => r_ptr_reg[0].ACLR
+reset => r_ptr_reg[1].ACLR
+reset => r_ptr_reg[2].ACLR
+reset => r_ptr_reg[3].ACLR
+reset => r_ptr_reg[4].ACLR
+reset => w_ptr_reg[0].ACLR
+reset => w_ptr_reg[1].ACLR
+reset => w_ptr_reg[2].ACLR
+reset => w_ptr_reg[3].ACLR
+reset => w_ptr_reg[4].ACLR
+wr => w_ptr_next.IN1
+rd => r_ptr_next.IN1
+full <= full_flag.DB_MAX_OUTPUT_PORT_TYPE
+empty <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+w_addr[0] <= w_ptr_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+w_addr[1] <= w_ptr_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+w_addr[2] <= w_ptr_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+w_addr[3] <= w_ptr_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+r_addr[0] <= r_ptr_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+r_addr[1] <= r_ptr_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+r_addr[2] <= r_ptr_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+r_addr[3] <= r_ptr_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

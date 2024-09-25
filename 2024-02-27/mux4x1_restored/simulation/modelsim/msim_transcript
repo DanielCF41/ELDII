@@ -1,0 +1,69 @@
+# do mux4x1_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /opt/intelFPGA/20.1/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1_restored/mux4x1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:51:49 on Mar 01,2024
+# vcom -reportprogress 300 -93 -work work /home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1_restored/mux4x1.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity mux4x1
+# -- Compiling architecture ifsc_v1 of mux4x1
+# -- Compiling architecture ifsc_v2 of mux4x1
+# -- Loading entity mux4x1
+# -- Compiling architecture ifsc_v3 of mux4x1
+# -- Loading entity mux4x1
+# -- Compiling configuration cfg_infs
+# -- Loading entity mux4x1
+# -- Loading architecture ifsc_v1 of mux4x1
+# End time: 10:51:49 on Mar 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# stdin: <EOF>
+do tb_mux4x1_v1.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:51:53 on Mar 01,2024
+# vcom -reportprogress 300 -93 -work work /home/daniel.f2005/QUARTUS/ELD-II/2024-02-27/mux4x1.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity mux4x1
+# -- Compiling architecture ifsc_v1 of mux4x1
+# -- Compiling architecture ifsc_v2 of mux4x1
+# -- Loading entity mux4x1
+# -- Compiling architecture ifsc_v3 of mux4x1
+# -- Loading entity mux4x1
+# -- Compiling configuration cfg_infs
+# -- Loading entity mux4x1
+# -- Loading architecture ifsc_v1 of mux4x1
+# End time: 10:51:53 on Mar 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim rtl_work.mux4x1(ifsc_v1) 
+# Start time: 10:51:53 on Mar 01,2024
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-25-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading rtl_work.mux4x1(ifsc_v1)
+# End time: 10:53:57 on Mar 01,2024, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 0

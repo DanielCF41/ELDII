@@ -1,0 +1,17 @@
+Quartus Prime Archive log --	/home/daniel.f2005/QUARTUS/ELD-II/2024-07-05/pwm.qarlog
+
+Archive:	/home/daniel.f2005/QUARTUS/ELD-II/2024-07-05/pwm.qar
+Date:		Fri Jul  5 11:09:15 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/daniel.f2005/QUARTUS/ELD-II/2024-07-05/pwm.qpf
+/home/daniel.f2005/QUARTUS/ELD-II/2024-07-05/pwm.qsf
+/home/daniel.f2005/QUARTUS/ELD-II/2024-07-05/pwm.vhd
+/home/daniel.f2005/QUARTUS/ELD-II/2024-07-05/simulation/modelsim/tb_pwm.do
+/home/daniel.f2005/QUARTUS/ELD-II/2024-07-05/simulation/modelsim/wave.do
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,17 @@
+Quartus Prime Archive log --	/home/daniel.f2005/QUARTUS/ELD-II/LAB1/passo3/PJ2.qarlog
+
+Archive:	/home/daniel.f2005/QUARTUS/ELD-II/LAB1/passo3/PJ2.qar
+Date:		Tue Mar 19 21:02:42 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/daniel.f2005/QUARTUS/ELD-II/LAB1/passo3/SDC1.sdc
+/home/daniel.f2005/QUARTUS/ELD-II/LAB1/passo3/hamming_distance.out.sdc
+/home/daniel.f2005/QUARTUS/ELD-II/LAB1/passo3/hamming_distance.qpf
+/home/daniel.f2005/QUARTUS/ELD-II/LAB1/passo3/hamming_distance.qsf
+/home/daniel.f2005/QUARTUS/ELD-II/LAB1/passo3/hamming_distance.vhd
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

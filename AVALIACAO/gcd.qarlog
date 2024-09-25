@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	/home/daniel.f2005/QUARTUS/ELD-II/AVALIACAO/gcd.qarlog
+
+Archive:	/home/daniel.f2005/QUARTUS/ELD-II/AVALIACAO/gcd.qar
+Date:		Mon Aug 26 09:26:32 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/daniel.f2005/QUARTUS/ELD-II/AVALIACAO/gcd.qpf
+/home/daniel.f2005/QUARTUS/ELD-II/AVALIACAO/gcd.qsf
+/home/daniel.f2005/QUARTUS/ELD-II/AVALIACAO/gcd.vhd
+/home/daniel.f2005/QUARTUS/ELD-II/AVALIACAO/simulation/modelsim/tb_Euclides.do
+/home/daniel.f2005/QUARTUS/ELD-II/AVALIACAO/simulation/modelsim/tb_fast.do
+/home/daniel.f2005/QUARTUS/ELD-II/AVALIACAO/simulation/modelsim/tb_slow.do
+/home/daniel.f2005/QUARTUS/ELD-II/AVALIACAO/simulation/modelsim/wave.do
+/home/daniel.f2005/QUARTUS/ELD-II/AVALIACAO/simulation/modelsim/wave3.do
+/home/daniel.f2005/QUARTUS/ELD-II/AVALIACAO/simulation/modelsim/wavefast.do
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

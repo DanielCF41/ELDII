@@ -1,0 +1,36 @@
+|leading_zeros
+data[7] => count.OUTPUTSELECT
+data[7] => count.OUTPUTSELECT
+data[7] => count.OUTPUTSELECT
+data[7] => count.OUTPUTSELECT
+data[6] => count.OUTPUTSELECT
+data[6] => count.OUTPUTSELECT
+data[6] => count.OUTPUTSELECT
+data[6] => count.OUTPUTSELECT
+data[5] => count.OUTPUTSELECT
+data[5] => count.OUTPUTSELECT
+data[5] => count.OUTPUTSELECT
+data[5] => count.OUTPUTSELECT
+data[4] => count.OUTPUTSELECT
+data[4] => count.OUTPUTSELECT
+data[4] => count.OUTPUTSELECT
+data[4] => count.OUTPUTSELECT
+data[3] => count.OUTPUTSELECT
+data[3] => count.OUTPUTSELECT
+data[3] => count.OUTPUTSELECT
+data[3] => count.OUTPUTSELECT
+data[2] => count.OUTPUTSELECT
+data[2] => count.OUTPUTSELECT
+data[2] => count.OUTPUTSELECT
+data[1] => count.OUTPUTSELECT
+data[1] => count.OUTPUTSELECT
+data[0] => Add0.IN2
+data[0] => count.DATAA
+clock => ~NO_FANOUT~
+reset => ~NO_FANOUT~
+zeros[0] <= count.DB_MAX_OUTPUT_PORT_TYPE
+zeros[1] <= count.DB_MAX_OUTPUT_PORT_TYPE
+zeros[2] <= count.DB_MAX_OUTPUT_PORT_TYPE
+zeros[3] <= count.DB_MAX_OUTPUT_PORT_TYPE
+
+

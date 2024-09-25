@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Mar 26 10:34:43 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+Revision Name : ff_D
+Top-level Entity Name : contador_0_N
+Family : Cyclone IV E
+Device : EP4CE6E22A7
+Timing Models : Final
+Total logic elements : 11 / 6,272 ( < 1 % )
+    Total combinational functions : 11 / 6,272 ( < 1 % )
+    Dedicated logic registers : 6 / 6,272 ( < 1 % )
+Total registers : 6
+Total pins : 8 / 92 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

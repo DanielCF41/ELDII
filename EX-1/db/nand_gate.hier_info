@@ -1,0 +1,6 @@
+|nand_gate
+a => x.IN0
+b => x.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+

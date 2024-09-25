@@ -1,0 +1,63 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY maquinaDeLavarFSM2 IS
+PORT (
+	clk, rst : IN STD_LOGIC;
+	start : in std_logic;
+	gambi: in std_logic;;
+	t :
+	nivel : in std_LOGIC;
+	m1, m2, b, v : OUT std_logic
+	);
+END entity;
+
+ARCHITECTURE ifsc_v1 OF maquinaDeLavarFSM2 IS
+	TYPE state IS (parado, enche, bate_1, molho, bate_2, esvazia_1, enche_2, enxagua, esvazia_2, centrifuga);
+	SIGNAL pr_state, nx_state : state;
+BEGIN
+	
+	PROCESS (clk, rst)
+	BEGIN
+		IF (rst = '1') THEN
+			pr_state <= parado;
+		ELSIF rising_edge(clk) THEN
+			pr_state <= nx_state;
+		END IF;
+	END PROCESS;
+
+	PROCESS (pr_state, x)
+	BEGIN
+      m1 <= '0';
+		m2 <= '0';
+		b  <= '0';
+		v  <= '0';
+		
+		CASE pr_state IS
+			WHEN parado =>  
+				IF (start = 1) THEN
+					nx_state <= enche;
+				ELSE
+					nx_state <= parado;
+				END IF;
+				
+			WHEN enche =>
+				IF (nivel = '1') THEN
+					nx_state <= bate_1;
+				ELSIF (x = 1) THEN
+					nx_state <= A;
+				ELSE
+					nx_state <= B;
+				END IF;
+				
+			WHEN C => 
+				y <= '1';
+				IF (x = 1) THEN
+					nx_state <= A;
+				ELSE
+					nx_state <= C;
+				END IF;
+				
+		END CASE;
+	END PROCESS;
+END architecture;

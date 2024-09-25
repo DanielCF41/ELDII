@@ -1,0 +1,11 @@
+Fitter Status : Successful - Wed Mar 20 17:13:09 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+Revision Name : hamming_distance
+Top-level Entity Name : hamming_distance
+Family : MAX V
+Device : 5M80ZT100A5
+Timing Models : Final
+Total logic elements : 68 / 80 ( 85 % )
+Total pins : 55 / 79 ( 70 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

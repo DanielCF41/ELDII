@@ -1,0 +1,13 @@
+
+State Machine - |maquinaDeLavarFSM2|pr_state
+Name pr_state.centrifuga pr_state.esvazia_2 pr_state.enxagua pr_state.enche_2 pr_state.esvazia_1 pr_state.bate_2 pr_state.molho pr_state.bate_1 pr_state.enche pr_state.parado 
+pr_state.parado 0 0 0 0 0 0 0 0 0 0 
+pr_state.enche 0 0 0 0 0 0 0 0 1 1 
+pr_state.bate_1 0 0 0 0 0 0 0 1 0 1 
+pr_state.molho 0 0 0 0 0 0 1 0 0 1 
+pr_state.bate_2 0 0 0 0 0 1 0 0 0 1 
+pr_state.esvazia_1 0 0 0 0 1 0 0 0 0 1 
+pr_state.enche_2 0 0 0 1 0 0 0 0 0 1 
+pr_state.enxagua 0 0 1 0 0 0 0 0 0 1 
+pr_state.esvazia_2 0 1 0 0 0 0 0 0 0 1 
+pr_state.centrifuga 1 0 0 0 0 0 0 0 0 1 

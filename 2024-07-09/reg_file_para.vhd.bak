@@ -1,0 +1,29 @@
+--=============================
+-- Listing 15.26
+--=============================
+architecture beh_arch of reg_file_para is
+   type reg_file_type is array (2**W-1 downto 0) of
+        std_logic_vector(B-1 downto 0);
+   signal array_reg: reg_file_type;
+   signal array_next: reg_file_type;
+begin
+   -- register array
+   process(clk,reset)
+   begin
+      if (reset='1') then
+         array_reg <= (others=>(others=>'0'));
+      elsif (clk'event and clk='1') then
+         array_reg <=  array_next;
+      end if;
+   end process;
+   -- next-state logic for register array
+   process(array_reg,wr_en,w_addr,w_data)
+   begin
+      array_next <= array_reg;
+      if wr_en='1' then
+         array_next(to_integer(unsigned(w_addr))) <= w_data;
+      end if;
+   end process;
+   -- read port
+   r_data <=  array_reg(to_integer(unsigned(r_addr)));
+end beh_arch;

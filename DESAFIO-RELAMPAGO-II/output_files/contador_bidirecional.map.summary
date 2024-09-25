@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Apr  9 10:17:59 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+Revision Name : contador_bidirecional
+Top-level Entity Name : contador_bidirecional
+Family : Cyclone IV E
+Total logic elements : 8
+    Total combinational functions : 8
+    Dedicated logic registers : 8
+Total registers : 8
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

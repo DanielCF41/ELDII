@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Jul 24 16:46:04 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+Revision Name : reg_file_para
+Top-level Entity Name : reg_file_para
+Family : Cyclone IV E
+Device : EP4CE6E22A7
+Timing Models : Final
+Total logic elements : 5,010 / 6,272 ( 80 % )
+    Total combinational functions : 3,000 / 6,272 ( 48 % )
+    Dedicated logic registers : 4,096 / 6,272 ( 65 % )
+Total registers : 4096
+Total pins : 51 / 92 ( 55 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
